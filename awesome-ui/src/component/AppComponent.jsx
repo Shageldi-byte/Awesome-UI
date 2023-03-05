@@ -14,7 +14,7 @@ export const Basic = styled(Box)({
 
 export const UsingTheme = styled(Box)(
     ({ theme }) => ({
-        backgroundColor: theme.palette.secondary.light,
+        backgroundColor: theme.palette.grey[900],
         color: theme.palette.grey[900],
         padding: theme.spacing(2),
         textAlign: 'center',
@@ -57,5 +57,6 @@ export const AppButton = styled(Button)(
         color: ${theme.palette.primary.contrastText};
         font-family: ${Fonts.MEDIUM};
         text-transform: none;
+        padding: 12px;
     `
 );

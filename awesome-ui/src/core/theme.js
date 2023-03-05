@@ -6,3 +6,8 @@ export const Fonts = {
     ITALIC:"Avenir-Italic",
     MEDIUM:"Avenir-Medium"
 }
+
+export const Colors = {
+    PRIMARY:"#647B64",
+    SECONDARY:"#F0DCC5"
+}
